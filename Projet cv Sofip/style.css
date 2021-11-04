@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+
+body {
+	background: url(./img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* **************** HEADER ************ */
+header {
+	padding-bottom: 20px;
+}
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+header a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.titre {
+	color: #2d335b;
+	font-family: 'Rubik', sans-serif;
+}
+
+.navbars {
+	position: fixed;
+	color: #de7965;
+	font-family: 'Rubik', sans-serif;
+}
+.presentation {
+	text-align: center;
+	color: #42465f;
+	font-family: 'Rubik', sans-serif;
+
+}
+#photo {
+	height: 150px;
+	border-radius: 50%;
+	margin: auto;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	filter: drop-shadow(0 0 0.75rem #fff);
+}
+.button {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.button a {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	background-color: #42465f;
+	padding: 20px;
+	transition: 1s;
+	font-family: 'Rubik', sans-serif;
+}
+.button a:hover {
+	color: #42465f;
+	text-decoration: none;
+	border: 1px solid #42465f;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-family: 'Rubik', sans-serif;
+}
+.infos {
+	border: 5px solid #42465f;
+	font-weight: lighter;
+	color: #42465f;
+	background-color: rgba(255, 255, 255, 0.6);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px 0;
+	box-sizing: border-box;
+	width: 350px;
+	margin-left: 20px;
+	padding: 10px 10px 5px 5px;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+}
+
+/* ************************* SECTION 1 ********************* */
+
+.experience {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin-bottom: 25px;
+	border: 5px solid #42465f;
+	padding-top: 10px;
+	color: #42465f;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-family: 'Rubik', sans-serif;
+}
+
+.item1,
+.item2,
+.item3 {
+	height: 150px;
+	padding-bottom: 50px;
+}
+
+/* *********************** SECTION 2 ******************* */
+.formation {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin-bottom: 25px;
+	border: 5px solid #42465f;
+	padding-top: 10px;
+	color: #42465f;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-family: 'Rubik', sans-serif;
+}
+
+/* ***************** SECTION 3 **************** */
+.Languages {
+	padding: 80px 80px 80px 50px;
+	height: 900px;
+	width: 47%;
+	max-width: 640px;
+	padding-bottom: 50px;
+	color: #42465f;
+	font-family: 'Rubik', sans-serif;
+	margin: auto;
+	color: #42465f;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-bottom: 200px;
+	border: 5px solid #42465f;
+
+}
+
+/********************* Progress bar languages  *****************/
+
+
+
+.progress-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #42465f;
+	margin: 0 0 10px;
+	font-family: 'Rubik', sans-serif;
+}
+.progress-outer {
+	background: #fff;
+	padding: 5px 60px 5px 5px;
+	border: 5px solid #bebfbf;
+	border-radius: 45px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.progress {
+	background: #bebfbf;
+	border-radius: 20px;
+	margin: 0;
+}
+.progress .progress-bar {
+	border-radius: 20px;
+	box-shadow: none;
+	animation: animate-positive 2s;
+}
+.progress .progress-value {
+	font-size: 20px;
+	font-weight: 700;
+	color: #6b7880;
+	position: absolute;
+	top: 3px;
+	right: 10px;
+}
+@keyframes animate-positive {
+	0% {
+		width: 0;
+	}
+}
+
+/* ******************* FOOTER ***************** */
+
+#network {
+	font-size: 100px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: #42465f 1px 1px 2px;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 50%;
+}
+#network:hover{
+	font-size: 100px;
+	text-decoration: none;
+	color: #42465f;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	padding-bottom: 10px;
+
+}
+
+.footer-icon a {
+	color: #42465f;
+	text-decoration: none;
+	border: 5px solid #42465f;
+	padding: 20px;
+	transition: 1s;
+	box-shadow: #42465f 1px 1px 2px;
+}
+.footer-icon a:hover {
+	color: #de7965;
+	text-decoration: none;
+	border: 5px solid #42465f;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* ***************** RESPONSIVE  ************* */
+
+@media screen and (max-width: 760px) {
+
+	/* ******************* HEADER *********************** */
+
+	body {
+		background: url(./img/background.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	header a {
+		color:rgba(255, 255, 255, 0.7);
+	}
+	.titre{
+		color:rgba(255, 255, 255, 0.7);
+		font-size: 20px;
+	}
+	.presentation{
+		color: rgba(255, 255, 255, 0.7);;
+		text-align: center;
+		font-family: 'Rubik', sans-serif;
+	}
+
+
+	.infos {
+		margin-bottom:50px;
+		margin-left: 30px;
+		width: 300px;
+		border: 3px solid #42465f;
+
+	}
+	.button{
+		margin-top:50px;
+	}
+
+	/* ************************* SECTION 1 ********************* */
+	.experience{
+		display: inline;
+		border: none;
+	}
+
+
+	.experience h1, .experience h6,.experience h5{
+		display: none;
+	}
+	.experience h4{
+		color: rgba(255, 255, 255, 0.7);
+	}
+
+
+	/* *************************** SECTION 2 ********************* */
+	.formation {
+		display: inline;
+		border: none;
+
+	}
+	.formation h1, .formation h6, .formation h5{
+		display: none;
+	}
+	.formation h4 {
+		color: rgba(255, 255, 255, 0.6);
+	}
+	/* ********************* SECTION 3 ****************** */
+	.Languages h2 {
+		display: none;
+	}
+	.Languages{
+		position: relative;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;
+		animation: none;
+		margin-bottom: 20px;
+		height: 75%;
+		border: none;
+	}
+	p{
+		display: none;
+	}
+
+	.bar{
+		text-align: left;
+	}
+	.progress{
+		margin-top: 5px;
+	}
+
+	/* *********************** FOOTER ********************** */
+
+	.footer-icon{
+		border: none;
+	}
+}
